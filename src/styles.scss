@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: whitesmoke;
+}
+
+.menuBackground{
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0 0 2px black;
+}
+.dividedBlock{
+    background-color: white;
+    box-shadow: 0 0 1px black;
+    justify-content: center;
+}
+.menuFont i{
+    // color: white;
+    color: #ff1a41;
+}
+.commonBtn{
+    color: white;
+    background-color:#ff1a41 ;
+    padding: 2px 10px;
+}
+.container{
+    background-color: #e0e5ec;
+}
+
+@media (max-width:500px){
+}

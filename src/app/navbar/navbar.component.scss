@@ -1,0 +1,252 @@
+.navbar-topMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+   z-index: 500;
+   height: 100px;
+   padding: unset;
+   display: block;
+  }
+
+  .navbar-topMenu{
+   .dropdown-menu{
+    padding: 10px;
+    margin: 0;
+  }
+  .table th, .table td{
+    border-top: none;
+    padding: 5px 10px;
+  }
+  .table thead th{
+    border-bottom: none;
+  }
+  .table td:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+  }
+  .chemicalProd .dropdown-menu{
+    right: 0 !important;
+    left: unset;
+  }
+}
+  
+  .navbar-container{
+    padding: 10px;
+    // display: flex;
+  }
+  .navbar-topMenu .logoDiv{
+    float: left;
+    width: 90%;
+    height: auto;
+  }
+  .navCol1{
+    width: 20%;
+    float: left;
+  }
+  .navCol2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .navCol3{
+    width: 30%;
+    text-align: right;
+  }
+  .desktopNav{
+    width: 100%;
+    float: left;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    a{
+      font-size: 14px;
+    }
+  } 
+  .searchBar{
+    width: 76%;
+      max-width: 600px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  .srechBtn{
+      background-color: #ff1a41;
+      color: white;
+  }
+  .hideSmall{
+    display: block;
+}
+.hideBig{
+    display: none;
+}
+  .navbar-topMenu .btn{
+    padding: 4px 10px;
+    font-weight: 500;
+  }
+  
+  
+  /* ----- MODAL STYLE ----- */
+  .modal-content {
+    border-radius: 0;
+    border: none;
+  }
+  
+  .navbar-SideMenuModal{
+    .modal-dialog {
+      position: fixed;
+      margin: auto;
+      width: 60%;
+      height: 100%;
+      -webkit-transform: translate3d(0%, 0, 0);
+          -ms-transform: translate3d(0%, 0, 0);
+           -o-transform: translate3d(0%, 0, 0);
+                  transform: translate3d(0%, 0, 0);
+    }
+    .modal-body .menu-modal{
+      margin-top: 16px;
+      display: grid;
+      span{
+        // font-weight: 500;
+        padding:12px 8px;
+      }
+      span i{
+        margin-right: 5px;
+      }
+    } 
+  } 
+  /*Right*/
+  .modal.right.fade .modal-dialog {
+    right: -60%;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+      -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+         transition: opacity 0.3s linear, right 0.3s ease-out;
+  }
+  
+  .modal.right.fade.show .modal-dialog {
+    right: 0;
+  }
+  
+  .modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+  }
+  #navbar-cartMenuIcon{
+    .btn{
+      font-size: 16px;
+      padding: 0;
+    }
+    .btn:focus{
+      box-shadow: none !important;
+      }
+  } 
+  .navbar-bedge{
+    color: white;
+    position: absolute;
+    right: 58px;
+    top: 20px;
+    font-size: 10px;
+  }
+  .navbar-customContainer{
+    margin-top: 120px;
+    width: 100%;
+    height: 100%;
+  }
+  #navbar-sideMenu .modal-header{
+    padding: 5px 10px;
+    flex-direction: row-reverse;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 0;
+  }
+  #navbar-sideMenu .modal-body{
+    padding: 5px;
+    // background-color: whitesmoke;
+  }
+
+  #emptyCartModal{ 
+    .modal-header{
+    justify-content: flex-end;
+    padding:5px 10px;
+    background-color: #e4e3e3;
+    font-size: 20px;
+    border-radius: 0;
+  }
+  .modal-header a{
+    color: black;
+  }
+}
+.menuCol1{
+    display: flex;
+    width: 90%;
+}
+.menuCol2{
+    display: flex;
+    width: 10%;
+}
+.menuRow{
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+  @media(min-width:960px) and (max-width:1200px){
+    .navbar-topMenu a{
+      font-size: 12px;
+    }
+    .navbar-topMenu h4{
+      font-size: 20px;
+    }
+  }
+@media(min-width:501px) and (max-width:959px){
+  .navbar-bedge{
+    top:21px;
+    right:49px
+  }
+}
+  @media(max-width:500px){
+    .navCol2{
+      display: none;
+    }
+    .navCol1{
+      width: 90%;
+    }
+    .navbar-topMenu .logoDiv{
+      width: 90%;
+    }
+   #navbar-cartMenuIcon span{
+    font-size: 18px;
+   }
+    .navbar-topMenu h4{
+      font-size: 20px;
+    }
+    .navbar-bedge{
+      right: 50px;
+      top: 15px;
+      font-size: 8px;
+    }
+    // .navbar-customContainer{
+    //   margin-top: 40px;
+    // }
+
+    .hideSmall{
+        display: none;
+    }
+    .hideBig{
+        display: block;
+    }
+    .desktopNav{
+      display: none;
+    }
+    .searchBar{
+      width: 100%;
+    }
+  }
+
+  @media(max-width:350px){
+    .modal-body .menu-modal span{
+      font-size: 13px !important;
+    }
+  }

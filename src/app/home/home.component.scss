@@ -1,0 +1,120 @@
+
+.homeRow1,
+.homeRow2,
+.homeRow3,
+.homeRow4,
+.homeRow5
+{
+    width: 95%;
+    min-height: 500px;
+    display: flex;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.carouselCol1{
+    display: block;
+    width: 20%;
+}
+.carouselCol2{
+    display: block;
+    width: 60%;
+}
+.carouselCol3{
+    display: flex;
+    width: 20%;
+}
+.carouselCol1{
+    .sliderLeftCol1{
+        width: 30%;
+        height: 50px;
+        padding-right: 5px;
+    }
+    .sliderLeftCol1 img{
+        width: 100%;
+        height: 50px;
+    }
+    .sliderLeftCol2{
+        width: 70%;
+        display: block;
+    }
+}
+.trendHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.trendContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.carouselCol2 .carousel-inner img{
+    height: 400px;
+    max-height: 500px;
+}
+.card{
+    height: 230px;
+    border: none;
+    margin: 5px;
+    width: 200px;
+}
+.card img{
+   display: flex;
+   height: auto;
+   max-height: 200px;
+   height: 200px;
+}
+.card-body{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+
+@media (max-width:500px){
+    .carouselCol1{
+        display: none;
+        width: 60%;
+    }
+    .carouselCol2{
+        display: block;
+        width: 100%;
+        margin: 10px;
+    }
+    .carouselCol2 .carousel-inner img{
+        height: 270px;
+        max-height: 500px;
+    }
+    .carouselCol3{
+        display: none;
+        width: 60%;
+    }
+
+    .card{
+        height: 180px;
+        border: none;
+        margin: 5px;
+        width: 150px;
+    }
+    .card img{
+        display: flex;
+        max-width: 150px;
+        height: 150px;
+     }
+
+     .homeRow1,
+.homeRow2,
+.homeRow3,
+.homeRow4,
+.homeRow5
+{
+    width: 100%;
+    padding: 0px;
+}
+}

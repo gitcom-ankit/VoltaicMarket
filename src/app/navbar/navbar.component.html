@@ -1,0 +1,426 @@
+<nav class="navbar navbar-default navbar-fixed-top navbar-topMenu menuBackground">
+    <div class="navbar-container">
+        <div class="w-100 d-flex">
+            <div class="w-100 d-flex">
+                <div class="navCol1">
+                    <span routerLink="/home" class="logoDiv">
+                        <img src="./assets/Images/PhotoGalleryLogo-Inner.png" alt="" class="img-responsive w-100">
+                    </span>
+                </div>
+                <div class="navCol2">
+                    <div class="searchBar m-0">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Recipient's username"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                                <button class="btn srechBtn"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navCol3 hideSmall">
+                    <a class="btn btn-default dropdown-toggle menuFont" routerLink="editor">User</a>
+                    <a class="btn btn-default dropdown-toggle menuFont" routerLink="editor">Cart</a>
+                    <a class="btn btn-default dropdown-toggle menuFont" routerLink="editor">Language</a>
+                </div>
+            </div>
+
+            <div id="navbar-cartMenuIcon" class="w-100 text-right hideBig">
+                <button class="btn mr-3 menuFont" routerLink="/">
+                    <i class="fas fa-home"></i>
+                </button>
+                <button class="btn mr-3 menuFont">
+                    <i class="fas fa-shopping-cart"></i>
+                    <!-- <div class="navbar-bedge"><strong></strong></div> -->
+                </button>
+                <button class="btn mr-1 menuFont" data-toggle="modal" data-target="#navbar-sideMenu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="desktopNav">
+            <div class="dropdown">
+                <a class="btn btn-default dropdown-toggle menuFont" id="dropdownMenuButton1" 
+                data-toggle="dropdown">Electronic Products</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td >Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="btn btn-default dropdown-toggle menuFont" id="dropdownMenuButton2"
+                data-toggle="dropdown">Lighting Products</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                    <table class="table table-borderless">
+                        <thead>
+                          <tr>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td >Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="btn btn-default dropdown-toggle menuFont" id="dropdownMenuButton3"
+                data-toggle="dropdown">Mobile Accessories</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                    <table class="table table-borderless">
+                        <thead>
+                          <tr>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td >Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="btn btn-default dropdown-toggle menuFont" id="dropdownMenuButton4"
+                data-toggle="dropdown">Computer Accessories</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+                    <table class="table table-borderless">
+                        <thead>
+                          <tr>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td >Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="btn btn-default dropdown-toggle menuFont" id="dropdownMenuButton5"
+                data-toggle="dropdown">Transportation
+                    Accessories</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+                    <table class="table table-borderless">
+                        <thead>
+                          <tr>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td >Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a class="btn btn-default dropdown-toggle menuFont" id="dropdownMenuButton6"
+                data-toggle="dropdown">Decoration</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+                    <table class="table table-borderless">
+                        <thead>
+                          <tr>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td >Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+            <div class="dropdown chemicalProd">
+                <a class="btn btn-default dropdown-toggle menuFont" id="dropdownMenuButton7"
+                data-toggle="dropdown">Chemical Products</a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton7">
+                    <table class="table table-borderless">
+                        <thead>
+                          <tr>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td >Mark</td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                          </tr>
+                          <tr>
+                            <td>Jacob</td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                          </tr>
+                          <tr>
+                            <td>Larry</td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="searchBar hideBig">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Recipient's username"
+                    aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button class="btn srechBtn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+<div class="navbar-customContainer">
+    <router-outlet></router-outlet>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="picUpload" tabindex="-1" role="dialog" aria-labelledby="UploadPhotos" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered menuBackground" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <input #inputFile type="file" accept="image/*" style="display: none" required> <br>
+                <button class="btn" (click)="inputFile.click()">
+                    <i class="fas fa-camera"></i>&nbsp;<span>Add Photo</span>
+                </button>
+                <button class="btn ml-3">
+                    <i class="fas fa-check-square"></i>&nbsp; Done
+                </button>
+
+                <button class="btn" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal right fade navbar-SideMenuModal" id="navbar-sideMenu" modal-backcrop="false">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content menuBackground">
+
+            <div class="modal-header">
+                <a data-dismiss="modal"> <i class="far fa-times-circle"></i> </a>
+            </div>
+
+            <div class="modal-body">
+                <div class="menu-modal">
+                    <div class="menuRow">
+                        <div class="menuCol1">
+                            <span class="menuFont" routerLink="editor" data-dismiss="modal">
+                                <i class="fas fa-edit"></i> Electronic Products
+                            </span>
+                        </div>
+                        <div class="menuCol2">
+                            <span> <i class="fas fa-chevron-down"></i> </span>
+                        </div>
+                    </div>
+                    <div class="menuRow">
+                        <div class="menuCol1">
+                            <span class="menuFont" routerLink="editor" data-dismiss="modal">
+                                <i class="fas fa-edit"></i> Lighting Products
+                            </span>
+                        </div>
+                        <div class="menuCol2">
+                            <span> <i class="fas fa-chevron-down"></i> </span>
+                        </div>
+                    </div>
+                    <div class="menuRow">
+                        <div class="menuCol1">
+                            <span class="menuFont" routerLink="editor" data-dismiss="modal">
+                                <i class="fas fa-edit"></i> Mobile Accessories
+                            </span>
+                        </div>
+                        <div class="menuCol2">
+                            <span> <i class="fas fa-chevron-down"></i> </span>
+                        </div>
+                    </div>
+                    <div class="menuRow">
+                        <div class="menuCol1">
+                            <span class="menuFont" routerLink="editor" data-dismiss="modal">
+                                <i class="fas fa-edit"></i> Computer Accessories
+                            </span>
+                        </div>
+                        <div class="menuCol2">
+                            <span> <i class="fas fa-chevron-down"></i> </span>
+                        </div>
+                    </div>
+
+                    <div class="menuRow">
+                        <div class="menuCol1">
+                            <span class="menuFont" routerLink="editor" data-dismiss="modal">
+                                <i class="fas fa-edit"></i> Transportation Accessories
+                            </span>
+                        </div>
+                        <div class="menuCol2">
+                            <span> <i class="fas fa-chevron-down"></i> </span>
+                        </div>
+                    </div>
+
+                    <div class="menuRow">
+                        <div class="menuCol1">
+                            <span class="menuFont" routerLink="editor" data-dismiss="modal">
+                                <i class="fas fa-edit"></i> Decoration
+                            </span>
+                        </div>
+                        <div class="menuCol2">
+                            <span> <i class="fas fa-chevron-down"></i> </span>
+                        </div>
+                    </div>
+
+                    <div class="menuRow">
+                        <div class="menuCol1">
+                            <span class="menuFont" routerLink="editor" data-dismiss="modal">
+                                <i class="fas fa-edit"></i> Chemical Products
+                            </span>
+                        </div>
+                        <div class="menuCol2">
+                            <span> <i class="fas fa-chevron-down"></i> </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div><!-- modal-content -->
+    </div><!-- modal-dialog -->
+</div><!-- modal -->
+
+
+
+<button type="button" id="emptyCartBtn" class="btn btn-primary" data-toggle="modal" data-target="#emptyCartModal"
+    hidden>
+    Cart Modal
+</button>
+
+<div class="modal fade" id="emptyCartModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a data-dismiss="modal"><i class="far fa-times-circle"></i></a>
+            </div>
+            <div class="modal-body text-center">
+                Your shopping cart is empty
+            </div>
+        </div>
+    </div>
+</div>
